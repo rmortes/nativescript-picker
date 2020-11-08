@@ -1,9 +1,14 @@
 
-import { Property, Template } from "tns-core-modules/ui/core/view/view";
-import { TextField } from 'tns-core-modules/ui/text-field/text-field';
-import { ChangedData } from "tns-core-modules/data/observable-array/observable-array";
-import { ListView, TemplatedItemsView, ItemEventData } from "tns-core-modules/ui/list-view/list-view";
-import { EventData } from "tns-core-modules/ui/core/view/view";
+import {
+    Property,
+    Template,
+    TextField,
+    ChangedData,
+    ListView,
+    TemplatedItemsView,
+    ItemEventData,
+    EventData
+} from "@nativescript/core";
 
 export interface ItemsSource {
     length: number;

@@ -1,19 +1,31 @@
-import { Observable } from 'tns-core-modules/data/observable';
-import { Property, Template, booleanConverter, CSSType } from "tns-core-modules/ui/core/view/view";
-import { View, EventData } from "tns-core-modules/ui/core/view/view";
-import { TextField } from 'tns-core-modules/ui/text-field/text-field';
-import { Button } from 'tns-core-modules/ui/button/button';
-
-import { GestureEventData } from "tns-core-modules/ui/gestures";
-import { ListView, ItemEventData, TemplatedItemsView } from "tns-core-modules/ui/list-view/list-view";
-import { Page, ShownModallyData, Color } from 'tns-core-modules/ui/page';
-import { fromObject } from "tns-core-modules/data/observable";
-import { addWeakEventListener, removeWeakEventListener } from "tns-core-modules/ui/core/weak-event-listener";
-import { ObservableArray, ChangedData } from "tns-core-modules/data/observable-array/observable-array";
-import { GridLayout } from 'tns-core-modules/ui/layouts/grid-layout/grid-layout';
-import { ActionItem, NavigationButton } from 'tns-core-modules/ui/action-bar/action-bar';
-import { Frame, ShowModalOptions } from 'tns-core-modules/ui/frame/frame';
-import { isAndroid } from 'tns-core-modules/platform';
+import {
+    ActionItem,
+    addWeakEventListener,
+    booleanConverter,
+    Button,
+    ChangedData,
+    CSSType,
+    EventData,
+    Frame,
+    fromObject,
+    GestureEventData,
+    GridLayout,
+    isAndroid,
+    ItemEventData,
+    ListView,
+    NavigationButton,
+    Observable,
+    ObservableArray,
+    Page,
+    Property,
+    removeWeakEventListener,
+    ShowModalOptions,
+    ShownModallyData,
+    Template,
+    TemplatedItemsView,
+    TextField,
+    View
+} from '@nativescript/core';
 
 export interface ItemsSource {
     length: number;

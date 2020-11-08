@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, ElementRef, forwardRef, IterableDif
 import { TemplatedItemsComponent, TEMPLATED_ITEMS_COMPONENT } from "nativescript-angular/directives/templated-items-comp";
 import { PickerField } from "../picker";
 import { PickerValueAccessor } from "./nativescript-picker.accessors";
-import { View } from "tns-core-modules/ui/core/view";
+import { View } from "@nativescript/core";
 
 @Component({
     selector: "PickerField",

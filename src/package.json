@@ -48,6 +48,10 @@
     "homepage": "https://github.com/NativeScript/nativescript-picker",
     "readmeFilename": "README.md",
     "devDependencies": {
+        "@nativescript/core": "~7.0.0",
+        "@nativescript/types": "~7.0.0",
+        "@nativescript/webpack": "~3.0.0",
+        "typescript": "~3.9.0",
         "@angular/common": "~8.2.0",
         "@angular/compiler": "~8.2.0",
         "@angular/compiler-cli": "~8.2.0",
@@ -62,10 +66,7 @@
         "rimraf": "^2.6.2",
         "rxjs": "~6.4.0",
         "semver": "^5.6.0",
-        "tns-core-modules": "^6.0.0",
-        "tns-platform-declarations": "^6.0.0",
         "tslint": "^5.11.0",
-        "typescript": "~3.5.3",
         "zone.js": "~0.8.26"
     },
     "dependencies": {}
